@@ -1,0 +1,88 @@
+.headerlink {
+	text-decoration: none;
+	width: 10%;
+	padding: 0.4%;
+	text-align: center;
+}
+
+.headerlink:hover {
+	border: 2px solid #202326;
+	color: #202326;
+	background-color: #b6cbe6;
+	border-radius: 25px;
+}
+
+
+.footerlink {
+	color: #FFFFFF; 
+	text-decoration: none;
+	width: 10%;
+}
+
+.footerlink:hover {
+	color: #000000;
+}
+
+.image {
+	width: 100% ; 
+	height: 100%; 
+	background-size: cover; 
+	border:none; 
+	display: block;
+}
+
+.coordinatorimage {
+	display: inline-block;
+	height: 40%;
+	width: 60%;
+	padding: 2%;
+}
+
+@media only screen and (min-width: 601px) {
+.coordinatorimage {
+	display: inline-block;
+	height: 20%;
+	width: 30%;
+	padding: 2%;
+}
+}
+
+.links {
+	padding: 1%;
+}
+
+.initiative:hover {
+	border: 2px solid #000000;
+	color: #000000;
+}
+
+.performance:hover {
+	border: 2px solid 	#FF1493;
+	color: 	#FF1493;
+}
+
+.facebook:hover {
+	border: 2px solid #4267B2;
+	color: #4267B2;
+}
+
+.youtube:hover {
+	border: 2px solid #FF0000;
+	color: 	#FF0000;
+}
+
+.notice {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.notice:hover {
+	color: #FF0000;
+	background-color: #000000;
+	border: 2px solid #FF0000;
+	border-radius: 25px;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+}

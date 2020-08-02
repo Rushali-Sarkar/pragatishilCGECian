@@ -1,0 +1,142 @@
+.headerlink {
+	text-decoration: none;
+	width: 10%;
+	padding: 0.4%;
+	text-align: center;
+}
+
+.headerlink:hover {
+	border: 2px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+
+.headerlinksmall {
+	width: 50%;
+}
+
+.description {
+	width: 95%;
+	text-align: center;
+	margin: auto;
+}
+
+.footerlink {
+	color: #FFFFFF; 
+	text-decoration: none;
+	width: 10%;
+}
+
+.footerlink:hover {
+	color: #C0C0C0;
+}
+
+hr {
+	height: 1px;
+	background-color: #000000;
+}
+
+
+.div3 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1%;
+    width: 45%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+
+@media only screen and (min-width: 601px) {
+.div3{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1%;
+    width: 15%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+}
+
+.div3:hover{
+    box-shadow: 5px 4px 10px #000000;
+}
+
+
+.cl {
+	text-decoration: none;
+	padding: 2%;
+}
+
+@media only screen and (min-width: 601px) {
+	.cl {
+	text-decoration: none;
+	padding: 0.5%;
+}
+}
+
+
+.cl:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+}
+
+.description {
+	position:relative;
+	border: 2px dashed red;
+	font-style:italic;
+	font-variant:small-caps;
+	padding:25px; 
+	color: black; 
+	background-color:lightblue; 
+	font-size:1.45em;
+	animation-name:example;
+	animation-duration:6s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	}
+
+@keyframes example{
+		  0%{background-color:PaleGreen;}
+		  20%{background-color:LavenderBlush;}
+		  40%{background-color:AliceBlue;}
+		  60%{background-color:Cornsilk;}
+		  80%{background-color:LightYellow;}
+		  100%{background-color:AntiqueWhite;}
+		  }
+
+
+.notice {
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.impt {
+	color: 	#006400;
+	text-decoration: none;
+	padding: 2%;
+}
+
+@media only screen and (min-width: 601px) {
+	.impt {
+	text-decoration: none;
+	padding: 0.5%;
+}
+}
+
+
+.impt:hover {
+	color: #FF0000;
+	background-color: #000000;
+	border: 2px solid #FF0000;
+	border-radius: 25px;
+}
+
